@@ -10,7 +10,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class UserService{
-  URL_API: string = "https://paradise-films-frontend-angular-js.vercel.app" || 'http://localhost:3000';
+  URL_API: string = "https://paradise-films-backend.vercel.app" || 'http://localhost:3000';
 
   private roleSubject: Subject<string> = new Subject<string>()
   private tokenSubject: Subject<string> = new Subject<string>()

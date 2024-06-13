@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class FilmService {
-  URL_API: string = "https://paradise-films-frontend-angular-js.vercel.app" || 'http://localhost:3000';
+  URL_API: string = "https://paradise-films-backend.vercel.app" || 'http://localhost:3000';
 
   constructor(
     private http: HttpClient,
